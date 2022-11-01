@@ -1,0 +1,54 @@
+doctype html
+html
+  head
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Anime_bash
+    style
+      include ../static/style.css
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap")
+  body
+    nav#navbar 
+        .logo 
+            img(src="../static/image/logo2.png", alt="logo")
+        ul 
+            li #[a(href="/") Home]
+            li #[a(href="/") Anime meg]
+            li #[a(href="/") Events]
+            li #[a(href="/") Join Us]
+            li #[a(href="/") Contact Us]
+    section.home
+        h2 Welcome To Our Community
+        p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem vel, sapiente non perferendis commodi ipsa.
+    section.para_sec
+        .pic1 
+            img(src="../static/image/rem.png", alt="pic1")
+        .para 
+            .para_box 
+                h3 Our contribution
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ex delectus fugit quis facilis accusamus recusandae maxime neque pariatur esse earum dicta eveniet provident iure sit exercitationem, laudantium mollitia vel labore? Veniam, cum nobis!
+            .para_box 
+                h3 Our Aim
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ex delectus fugit quis facilis accusamus recusandae maxime neque pariatur esse earum dicta eveniet provident iure sit exercitationem, laudantium mollitia vel labore? Veniam, cum nobis!
+            .para_box 
+                h3 Following Groups
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ex delectus fugit quis facilis accusamus recusandae maxime neque pariatur esse earum dicta eveniet provident iure sit exercitationem, laudantium mollitia vel labore? Veniam, cum nobis!
+    section.sponser_sec
+        h2 Sponsers
+        .sponser 
+            .sponser_box
+                .sponser_pic 
+                    img(src="../static/image/crunchyroll.png", alt="sponser pic") 
+                .sponser_para 
+                    h3 Crunhyroll 
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quam sint voluptatum, ratione eius amet libero nostrum, deleniti vel sapiente non tenetur mollitia? Beatae.
+            .sponser_box
+                .sponser_para 
+                    h3 Funimation
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quam sint voluptatum, ratione eius amet libero nostrum, deleniti vel sapiente non tenetur mollitia? Beatae.
+                .sponser_pic 
+                    img(src="../static/image/funimation.png", alt="sponser pic") 
+
+    footer 
+        | Copyright@Anime_bash.com.in
+    script
+      include ../static/script.js

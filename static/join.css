@@ -1,0 +1,25 @@
+.form{
+    margin: 20px;
+    min-height: 75vh;
+}
+h3{
+    font-size: 2rem;
+    text-align: center;
+    margin: 17px 0;
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myinput{
+    margin: 7px;
+    padding: 11px;
+    width: 35%;
+}
+.btn{
+    margin: 12px 0;
+    padding: 7px;
+    
+}

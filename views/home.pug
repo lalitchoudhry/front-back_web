@@ -1,0 +1,42 @@
+extends base.pug
+
+block scripts 
+    include ../static/script.js
+
+block style
+    style
+        include ../static/style.css
+
+block content 
+    section.home
+        h2 Welcome To Our Community
+        p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem vel, sapiente non perferendis commodi ipsa.
+    section.para_sec
+        .pic1 
+            img(src="../static/image/rem.png", alt="pic1")
+        .para 
+            .para_box 
+                h3 Our contribution
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ex delectus fugit quis facilis accusamus recusandae maxime neque pariatur esse earum dicta eveniet provident iure sit exercitationem, laudantium mollitia vel labore? Veniam, cum nobis!
+            .para_box 
+                h3 Our Aim
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ex delectus fugit quis facilis accusamus recusandae maxime neque pariatur esse earum dicta eveniet provident iure sit exercitationem, laudantium mollitia vel labore? Veniam, cum nobis!
+            .para_box 
+                h3 Following Groups
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ex delectus fugit quis facilis accusamus recusandae maxime neque pariatur esse earum dicta eveniet provident iure sit exercitationem, laudantium mollitia vel labore? Veniam, cum nobis!
+    section.sponser_sec
+        h2 Sponsers
+        .sponser 
+            .sponser_box
+                .sponser_pic 
+                    img(src="../static/image/crunchyroll.png", alt="sponser pic") 
+                .sponser_para 
+                    h3 Crunhyroll 
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quam sint voluptatum, ratione eius amet libero nostrum, deleniti vel sapiente non tenetur mollitia? Beatae.
+            .sponser_box
+                .sponser_para 
+                    h3 Funimation
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quam sint voluptatum, ratione eius amet libero nostrum, deleniti vel sapiente non tenetur mollitia? Beatae.
+                .sponser_pic 
+                    img(src="../static/image/funimation.png", alt="sponser pic") 
+
